@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
   entry: './lib/ConfirmBtn.js',
@@ -14,4 +15,5 @@ module.exports = {
     ],
   },
   externals: ['react'],
+  plugins: [new webpack.optimize.UglifyJsPlugin()],
 };
