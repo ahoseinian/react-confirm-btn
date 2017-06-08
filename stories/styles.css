@@ -1,0 +1,12 @@
+.btn {
+  background-color: white;
+  border: 2px solid tomato;
+  color: black;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition-duration: .4s;
+}
+
+.btn:hover {
+  background-color: tomato;
+}
