@@ -22,12 +22,6 @@
     "build-storybook": "build-storybook",
     "build": "webpack"
   },
-  "dependencies": {
-    "recompose": "^0.23.4"
-  },
-  "peerDependencies": {
-    "react": "^15.x"
-  },
   "keywords": [
     "react",
     "widgets",
