@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "red",
+      "bottom": "2px",
+      "height": "5px",
+      "left": "2%",
+      "position": "absolute",
+      "transitionDuration": "2000ms",
+      "width": "96%",
+    }
+  }
+/>
+`;

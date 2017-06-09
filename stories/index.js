@@ -86,4 +86,17 @@ storiesOf('CofirmBtn', module)
         <PrintProps props={props} />
       </div>
     );
+  })
+  .add('With Time', () => {
+    const props = {
+      className: 'btn',
+      time: 1500,
+      onConfirm: action('Confirmed!!!'),
+    };
+    return (
+      <div>
+        <ConfirmBtn {...props}> Delete </ConfirmBtn>
+        <PrintProps props={props} />
+      </div>
+    );
   });

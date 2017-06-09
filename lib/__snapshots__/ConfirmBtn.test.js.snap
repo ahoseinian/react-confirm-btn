@@ -3,7 +3,11 @@
 exports[`renders 1`] = `
 <button
   onClick={[Function]}
-  onConfirm={[Function]}
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
 >
    Delete 
 </button>
