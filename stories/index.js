@@ -63,7 +63,7 @@ storiesOf('CofirmBtn', module)
   })
   .add('With className', () => {
     const props = {
-      className: 'string',
+      className: 'btn',
       onConfirm: action('Confirmed!!!'),
     };
 
