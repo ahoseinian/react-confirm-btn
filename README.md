@@ -1,4 +1,4 @@
-# react-confirm-btn
+# React Confirm Button
 Simple react component that handles confirmation before running an action
 
 ### Example
